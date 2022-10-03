@@ -1,0 +1,68 @@
+ /* Tab Coloration */
+.tabbrowser-tab[selected] .tab-background{
+  background-color: rgba(0,0,0,.65) !important; 
+}
+.tabbrowser-tab:not([selected="true"]) .tab-background{
+  background-color: rgba(255,255,255,.65) !important; 
+}
+.tabbrowser-tab:not([selected="true"]):hover .tab-background{
+   background-color: rgba(255,255,255,.85) !important; 
+} 
+/*
+.tabbrowser-tab:hover:not([selected]) .tab-content {
+  background-color: rgba(255,255,255,.65) !important; }
+.tabbrowser-tab:not([selected="true"]):not(:hover) .tab-content {
+  background-color: rgba(255,255,255,.65) !important; }*/
+
+/* Tab Padding */
+#tabbrowser-tabs .tabbrowser-tab{
+   --tab-border-radius: 7px;
+   --tab-block-margin: 6px 4px;
+   --tab-min-width: 40px;
+   --tab-label-mask-size: 0.75em;
+   --inline-tab-padding: 10px;}
+
+ :root {
+ --tab-min-height: 30px !important;
+ --tab-max-height: 30px !important;
+ }
+
+/* get rid of little line under tool bar*/
+#PersonalToolbar{
+   margin-bottom: -1px !important;
+   background-color: rgba(255,255,255,.75) !important;
+}
+/* Reduce left spacer on non-maximized windows */
+.titlebar-spacer[type="pre-tabs"] {
+  width: 3px !important;
+}
+
+/* Change Toolbar Color*/
+#nav-bar{
+   background-color: rgba(255,255,255,.75) !important;
+   border: none !important;
+   box-shadow: none !important;
+   
+}
+/* Toolbar Buttons */
+#tabs-newtab-button .toolbarbutton-icon{
+   background-color: rgba(255,255,255,.65) !important;
+}
+.toolbarbutton-icon[label = "New Tab"]{
+   background-color: rgba(255,255,255,.65) !important;
+}
+
+/* Change scroll button colors - for when you have many tabs */
+#scrollbutton-down{
+   background-color: rgba(255,255,255,.65) !important;
+}
+#scrollbutton-up{
+   background-color: rgba(255,255,255,.65) !important;
+}
+/*Change titlebar buttons*/
+.titlebar-buttonbox{
+   background-color: rgba(255,255,255,.65) !important;
+}
+.titlebar-buttonbox-container {
+   margin-bottom: 5px !important; margin-left: -3px !important;
+}
