@@ -16,9 +16,8 @@
 
 /* Tab Padding */
 #tabbrowser-tabs .tabbrowser-tab{
-   --tab-border-radius: 7px;
+   --tab-border-radius: 8px;
    --tab-block-margin: 6px 4px;
-   --tab-min-width: 40px;
    --tab-label-mask-size: 0.75em;
    --inline-tab-padding: 10px;}
 
@@ -66,3 +65,7 @@
 .titlebar-buttonbox-container {
    margin-bottom: 5px !important; margin-left: -3px !important;
 }
+.toolbarbutton-badge-stack[consumeanchor="alltabs-button"]{
+   background-color: rgba(255,255,255,.65) !important;
+}
+
