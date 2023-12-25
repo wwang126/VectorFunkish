@@ -1,6 +1,6 @@
  /* Tab Coloration */
 .tabbrowser-tab[selected] .tab-background{
-  background-color: rgba(0,0,0,.65) !important; 
+  background-color: rgba(0,0,0,1) !important; 
 }
 .tabbrowser-tab:not([selected="true"]) .tab-background{
   background-color: rgba(255,255,255,.65) !important; 
