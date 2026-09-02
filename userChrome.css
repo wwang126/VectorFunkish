@@ -44,6 +44,7 @@
 #tabs-newtab-button .toolbarbutton-icon{
    background-color: rgba(255,255,255,.65) !important;
 }
+/* New Tab Button */
 .toolbarbutton-icon[label = "New Tab"]{
    background-color: rgba(255,255,255,.65) !important;
 }
@@ -58,6 +59,7 @@
 /*Change titlebar buttons*/
 .titlebar-buttonbox{
    background-color: rgba(255,255,255,.65) !important;
+   margin-left: 5px !important; /*Stop all tabs button from clipping into title bars*/
 }
 .titlebar-buttonbox-container {
    margin-bottom: 5px !important; margin-left: -3px !important;
